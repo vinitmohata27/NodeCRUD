@@ -1,7 +1,7 @@
-var mongoose = require('mongoose');
-var Schema = mongoose.Schema;
+let mongoose = require('mongoose');
+let Schema = mongoose.Schema;
 
-var AddressSchema = new Schema({
+let AddressSchema = new Schema({
     name: {
         type: String,
         required: [true, 'name is Required.']
