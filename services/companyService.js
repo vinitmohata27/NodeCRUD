@@ -24,7 +24,7 @@ let addCompany = function (obj, callback) {
 }
 let updateCompany = function (obj, callback) {
     obj.UpdatedAt = new Date();
-    Company.update({ _id: obj.id }, {$set:obj},function (error, result) {
+    Company.findOneAndUpdate({ _id: obj.id }, {$set:obj},function (error, result) {
         if (error) {
             callback(error, null);
         } else {

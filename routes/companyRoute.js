@@ -60,7 +60,7 @@ router.route('/company/:id')
         })
     })
     .put(function (req, res) {
-        if (!req.params.id || !req.body._id) {
+        if (!req.params.id) {
            return res.status(401).json({ message: messages.BAD_REQUEST });
         }
         let id = req.params.id;

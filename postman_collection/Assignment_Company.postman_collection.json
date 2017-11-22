@@ -1,0 +1,489 @@
+{
+	"id": "c8e844ad-d01b-4442-e241-e433e74e3f6b",
+	"name": "Assignment_Company",
+	"description": "",
+	"order": [
+		"185909df-5637-7b6f-2629-dfcf17591b43",
+		"03529252-7a81-4134-8b78-d62b713bd324",
+		"2ea87694-37c4-f098-45ef-1767a95e073d",
+		"9e08bb17-578d-7b32-ddec-9b0c101a6e0a",
+		"ac121471-ced4-c241-46b6-d349eadd01d6"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1511362501823,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "03529252-7a81-4134-8b78-d62b713bd324",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/company/5a158f99953ca5208c28152c",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c8e844ad-d01b-4442-e241-e433e74e3f6b",
+			"data": [
+				{
+					"key": "name",
+					"value": "ABC Corp.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine1]",
+					"value": "47 Village Court",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine2]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalCode]",
+					"value": "07730",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalName]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[countryCode]",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "size",
+					"value": "750",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.abccorp.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Industry",
+					"value": "IT",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:3000/api/company/5a158f99953ca5208c28152c",
+			"description": "To get the Single company\nNeed to pass _id from mongodb collection",
+			"descriptionFormat": "html",
+			"time": 1511362725747,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "185909df-5637-7b6f-2629-dfcf17591b43",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/company",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c8e844ad-d01b-4442-e241-e433e74e3f6b",
+			"data": [
+				{
+					"key": "name",
+					"value": "ABC Corp.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine1]",
+					"value": "47 Village Court",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine2]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalCode]",
+					"value": "07730",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalName]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[countryCode]",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "size",
+					"value": "750",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.abccorp.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Industry",
+					"value": "IT",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:3000/api/company",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1511362521744,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "2ea87694-37c4-f098-45ef-1767a95e073d",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/company/5a158f99953ca5208c28152c",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c8e844ad-d01b-4442-e241-e433e74e3f6b",
+			"data": [
+				{
+					"key": "name",
+					"value": "ABC Corp.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine1]",
+					"value": "47 Village Court",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine2]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalCode]",
+					"value": "07730",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalName]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[countryCode]",
+					"value": "US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "size",
+					"value": "750",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.abccorp.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Industry",
+					"value": "IT",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:3000/api/company/5a158f99953ca5208c28152c",
+			"description": "to delete collection from database pass _id in params",
+			"descriptionFormat": "html",
+			"time": 1511362770596,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "9e08bb17-578d-7b32-ddec-9b0c101a6e0a",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/company",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c8e844ad-d01b-4442-e241-e433e74e3f6b",
+			"data": [
+				{
+					"key": "name",
+					"value": "ABC Corp.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine1]",
+					"value": "47 Village Court",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine2]",
+					"value": "Hazlet US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalCode]",
+					"value": "07730",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "address[postalName]",
+					"value": "Hazlet",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "address[countryCode]",
+					"value": "US",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "size",
+					"value": "750",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.abccorp.com",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "Industry",
+					"value": "IT",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:3000/api/company",
+			"description": "GET ALL COMPANIES",
+			"descriptionFormat": "html",
+			"time": 1511362987258,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ac121471-ced4-c241-46b6-d349eadd01d6",
+			"headers": "Content-Type: application/x-www-form-urlencoded\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/x-www-form-urlencoded",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/api/company/5a1590db953ca5208c28152d",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "c8e844ad-d01b-4442-e241-e433e74e3f6b",
+			"data": [
+				{
+					"key": "name",
+					"value": "ABC Corp.",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine1]",
+					"value": "47 Village Court",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[addressLine2]",
+					"value": "Hazlet US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalCode]",
+					"value": "07730",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[postalName]",
+					"value": "Hazlet US",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "address[countryCode]",
+					"value": "US",
+					"type": "text",
+					"enabled": false,
+					"description": ""
+				},
+				{
+					"key": "size",
+					"value": "750",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "website",
+					"value": "www.abccorp.com",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				},
+				{
+					"key": "Industry",
+					"value": "IT",
+					"type": "text",
+					"enabled": true,
+					"description": ""
+				}
+			],
+			"dataMode": "urlencoded",
+			"name": "http://localhost:3000/api/company/5a1590db953ca5208c28152d",
+			"description": "UPDATE COMPANY DATA",
+			"descriptionFormat": "html",
+			"time": 1511363181545,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
