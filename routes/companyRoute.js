@@ -101,9 +101,10 @@ router.route('/company/:id')
 
 let checkCompanyFields = function (data) {
     if (_.isEmpty(data.name) || _.isEmpty(data.address.addressLine1) ||
-        _.isEmpty(data.address.addressLine2) || _.isEmpty(data.address.postalCode) ||
-        _.isEmpty(data.address.postalName) || _.isEmpty(data.address.countryCode) ||
-        _.isEmpty(data.size) || _.isEmpty(data.website) || _.isEmpty(data.Industry)) {
+        _.isEmpty(data.address.addressLine2) || !data.address.postalCode ||
+        _.isEmpty(data.address.postalName) || _.isEmpty(data.address.countryCode) || 
+        !data.size || _.isEmpty(data.website) || _.isEmpty(data.Industry)
+        ) {
         return false;
     }
     else {

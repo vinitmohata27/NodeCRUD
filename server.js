@@ -36,3 +36,5 @@ app.use('/api', usersRouter);
 // =============================================================================
 app.listen(port);
 log.trace('Server listening on port ' + port);
+
+module.exports=app;
