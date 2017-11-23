@@ -10,3 +10,9 @@ Steps to run application:
 6. If every thing is fine message will shown in command prompt "Server listening on port 3000".
 7. Now for check API Endpoints postman schema will be used which is in folder named "postman_collection".
 8. Import the postman schema and test the API using Postman (https://www.getpostman.com/apps).
+
+
+Steps To Run the Test Cases:
+
+1. Install mocha module globally using following command 'npm install mocha -g'.
+2. Run following command for running test cases in project root folder 'mocha'.
